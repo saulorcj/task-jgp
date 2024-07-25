@@ -1,0 +1,5 @@
+"""
+
+The process of automating the extraction, processing and loading of data depends largely on the purpose, but for this task let's assume that we always need the data to be as up-to-date as possible. As the process would have to be automatic, we could not run it on a personal computer, so a first step would be to hire a server to host a virtual machine that would run the python script. Having the virtual machine and the python script, we would only need to use a task scheduling tool so that the execution takes place at the correct time. Some attention that we would have to pay is the volume of data extracted, as it can impact the cost of the server, and the correct execution of the data, we would also need to create automatic ways of confirming that the data to be extracted is in fact new, if it is not it should an alert will be issued for appropriate actions. Finally, as the data is public, I was not concerned with information security, but thinking in a context of private data, actions should be taken into consideration to guarantee the reliability and integrity of the data.
+
+"""
