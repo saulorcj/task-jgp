@@ -1,0 +1,8 @@
+requests
+nbformat
+kaleido
+fastapi
+pandas
+plotly
+numpy
+json
